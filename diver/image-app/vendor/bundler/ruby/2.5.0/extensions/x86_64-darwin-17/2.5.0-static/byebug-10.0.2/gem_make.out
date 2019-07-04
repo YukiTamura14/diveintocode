@@ -1,0 +1,19 @@
+current directory: /Users/yukitamura/diver/image-app/vendor/bundler/ruby/2.5.0/gems/byebug-10.0.2/ext/byebug
+/Users/yukitamura/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20190224-25125-1tamljs.rb extconf.rb
+creating Makefile
+
+current directory: /Users/yukitamura/diver/image-app/vendor/bundler/ruby/2.5.0/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/yukitamura/diver/image-app/vendor/bundler/ruby/2.5.0/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/yukitamura/diver/image-app/vendor/bundler/ruby/2.5.0/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.bundle ./.gem.20190224-25125-ka1abe/byebug

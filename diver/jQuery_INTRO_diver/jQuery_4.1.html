@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>jQuery入門</title>
+</head>
+<body>
+  <h1>jQueryを書いてみよう！</h1>
+  <p>jQueryは、世界中でよく使用される、ライブラリのひとつです。</p>
+  <p>jQueryの歴史は古く....</p>
+
+  <h2>リスト１</h2>
+  <ul id="list1" class="unordered">
+    <li>リスト</li>
+    <li>リスト</li>
+    <li>リスト</li>
+  </ul>
+
+  <h2>リスト2</h2>
+  <ol id="list2" class="ordered">
+    <li>リスト</li>
+    <li>リスト</li>
+    <li>リスト</li>
+  </ol>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script>
+　　$(function() {
+  　　$('p').on('click', function() {
+    　　$(this).css('color', 'blue');
+  　　});
+　　});
+　　
+　　$(function() {
+  $('#list1').css('background-color', 'yellowgreen');
+})
+
+$(function(){
+  $(`.ordered`).css(`background-color`,`yellow`);
+})
+
+$(function() {
+  $('ul li').css('color', 'red');
+
+})
+
+  $(function() {
+  $('ul, ol').css('color', 'blue');
+})
+
+$(function() {
+  $('li').on('mouseenter', function(){
+    $(this).css('background-color', 'red');
+  })
+    .on('mouseleave', function(){
+     $(this).css('background-color', 'transparent');
+  })
+});
+
+  </script>
+</body>
+</html>

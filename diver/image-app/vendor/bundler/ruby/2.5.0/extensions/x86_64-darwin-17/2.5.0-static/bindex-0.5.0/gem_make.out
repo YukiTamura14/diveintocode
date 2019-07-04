@@ -1,0 +1,15 @@
+current directory: /Users/yukitamura/diver/image-app/vendor/bundler/ruby/2.5.0/gems/bindex-0.5.0/ext/bindex
+/Users/yukitamura/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20190224-25125-pr9hdi.rb extconf.rb
+creating Makefile
+
+current directory: /Users/yukitamura/diver/image-app/vendor/bundler/ruby/2.5.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" clean
+
+current directory: /Users/yukitamura/diver/image-app/vendor/bundler/ruby/2.5.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.bundle
+
+current directory: /Users/yukitamura/diver/image-app/vendor/bundler/ruby/2.5.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20190224-25125-osm32k/bindex

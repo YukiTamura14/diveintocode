@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+  <form>
+    <input type="text" name="" id="name"/>
+    <input type="button" value="送信" id="btn"/>
+  </form>
+  <script>
+    const target = document.getElementById('btn');
+    target.addEventListener('click', function() {
+    const form = document.getElementById('name'); 
+    console.log(form.value);
+},false);
+  </script>
+</body>

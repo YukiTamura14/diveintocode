@@ -1,0 +1,11 @@
+.alert-success {
+    background-color: pink;
+}
+
+.label{
+  margin: 2em;
+}
+
+.span.label.label-success{
+  display: inline-block;
+}

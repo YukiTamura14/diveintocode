@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+  <ul id="list1">
+    <li class="list">DIVE</li>
+    <li class="list">INTO</li>
+    <li class="list">CODE</li>
+  </ul>
+
+  <ul id="list2">
+    <li class="select">柴田</li>
+    <li class="select">松本</li>
+    <li class="list">吉本</li>
+  </ul>
+
+  <script>
+    const lists = document.getElementById('list2');
+    const target = lists.getElementsByClassName('select');
+
+    for (let i = 0; i < target.length; i++) {
+    console.log(target[i]);
+    }
+  </script>
+</body>

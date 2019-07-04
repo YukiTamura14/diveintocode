@@ -1,0 +1,14 @@
+
+
+<%= form_with(model: @picture, local: true) do |form| %>
+  <div class="field">
+    <%= form.label :image %>
+    <%= form.hidden_field :image %>
+    <%= form.hidden_field :image_cache %>
+    <%= image_tag @picture.image_url if @picture.image.present? %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

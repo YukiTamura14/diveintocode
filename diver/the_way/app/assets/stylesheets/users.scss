@@ -1,0 +1,17 @@
+// userのshow, favoriteページ
+.user_page{
+  box-sizing: border-box;
+  box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.2);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 3px;
+}
+
+.icon_area{
+	width: 200px;
+	height: 200px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+	background-color: #999;
+}

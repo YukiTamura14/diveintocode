@@ -1,0 +1,97 @@
+// // Place all the styles related to the tops controller here.
+// // They will automatically be included in application.css.
+// // You can use Sass (SCSS) here: http://sass-lang.com/
+
+html {
+  min-height: 100%;
+  font-size: 62.5%;
+}
+
+body {
+  position: relative;
+  height: 100%;
+  text-align: center;
+  font-family: times;
+}
+
+.container{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 auto;
+  position: relative;
+  min-height: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li{
+    list-style:none;
+}
+
+div#gnavi{
+  float:left;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  list-style:none;
+}
+
+.balloon4{
+  margin-bottom: 10px;
+}
+
+.about {
+  background-color: white;
+  color: #333;
+  padding: 40px;
+}
+
+.about p{
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.function {
+  background-color: white;
+  padding: 80px;
+  padding-bottom: 250px;
+}
+
+.function h2{
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.icon{
+  font-size: 14rem;
+}
+
+.footer{
+  background-color: #e9e9e9;
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: table;
+}
+
+.footer-text{
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: white;
+  color: #00b0ff;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.top-image{
+  width: 90%;
+}
